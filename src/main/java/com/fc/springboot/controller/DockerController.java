@@ -16,6 +16,6 @@ public class DockerController {
 
     @RequestMapping("/test")
     public String configTest() {
-        return "hello docker+jenkins+spring-boot";
+        return "branch-main: hello world";
     }
 }
